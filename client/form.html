@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Formulaire</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="person">
+      <label for="name">Nom : </label>
+      <input type="text" name="name" />
+      <label for="name">Prénom : </label>
+      <input type="text" name="firstname" />
+      <label for="name">Age : </label>
+      <input type="text" name="age" />
+      <br />
+      <button type="submit">Ajouter</button>
+    </form>
+    <div class="saved-persons">
+      <div>Personnes sauvegardées :</div>
+      <table id="personTable">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+    </table>
+    </div>
+  </body>
+  <footer>
+    <script
+      type="text/javascript"
+      src="http://localhost:8080/script.js"
+    ></script>
+  </footer>
+</html>
